@@ -1,29 +1,38 @@
 # tugas-kelompok-3-kecerdasan-buatan
 Proyek ini membangun model machine learning untuk memprediksi risiko kebakaran hutan dari variabel meteorologi dan indikator potensi kebakaran. Berbasis alur data science terstruktur, prosesnya meliputi pembersihan data, EDA, seleksi fitur, hingga klasifikasi Fire vs Not Fire untuk deteksi dini bencana secara akurat.
-Penjelasan Alur Kerja Proyek
-Pengumpulan Dataset
-Mengambil dan mengunggah dataset mentah yang berisi parameter meteorologi dan indikator kebakaran hutan.
+## Penjelasan Alur Kerja Proyek
 
-Cleaning & Preprocessing
-Pembersihan data dari missing values, penanganan data duplikat, perbaikan tipe data, serta encoding variabel kategorikal menjadi nilai numerik.
+1. **Pengumpulan Dataset**
+   Mengambil dan mengunggah dataset mentah yang berisi parameter meteorologi dan indikator kebakaran hutan.
 
-Exploratory Data Analysis (EDA)
-Analisis eksploratif untuk memahami statistik deskriptif, pola distribusi data, serta korelasi antar-variabel menggunakan matriks korelasi dan visualisasi.
+2. **Cleaning & Preprocessing**
+   Pembersihan data dari *missing values*, penanganan data duplikat, perbaikan tipe data, serta *encoding* variabel kategorikal menjadi nilai numerik.
 
-Feature Selection
-Memilih fitur-fitur terpenting yang memiliki korelasi tinggi terhadap status kebakaran hutan guna mengoptimalkan performa model.
+3. **Exploratory Data Analysis (EDA)**
+   Analisis eksploratif untuk memahami statistik deskriptif, pola distribusi data, serta korelasi antar-variabel menggunakan matriks korelasi dan visualisasi.
 
-Train - Test Split
-Membagi dataset menjadi data latih (training set) untuk melatih model dan data uji (testing set) untuk mengevaluasi performa model secara independen.
+4. **Feature Selection**
+   Memilih fitur-fitur terpenting yang memiliki korelasi tinggi terhadap status kebakaran hutan guna mengoptimalkan performa model.
 
-Pemodelan Machine Learning
-Melatih dan membangun model klasifikasi menggunakan beberapa algoritma machine learning untuk memprediksi kategori kebakaran (Fire vs Not Fire).
+5. **Train - Test Split**
+   Membagi dataset menjadi data latih (*training set*) untuk melatih model dan data uji (*testing set*) untuk mengevaluasi performa model secara independen.
 
-Evaluasi Model
-Mengukur performa dan akurasi model menggunakan metrik evaluasi seperti Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix.
+6. **Pemodelan Machine Learning**
+   Melatih dan membangun model klasifikasi menggunakan beberapa algoritma *machine learning* untuk memprediksi kategori kebakaran (*Fire vs Not Fire*).
 
-Prediksi & Interpretasi
-Menjalankan pengujian prediksi pada data uji serta menganalisis hasil prediksi untuk memahami bagaimana model mengambil keputusan.
+7. **Evaluasi Model**
+   Mengukur performa dan akurasi model menggunakan metrik evaluasi seperti *Accuracy*, *Precision*, *Recall*, *F1-Score*, dan *Confusion Matrix*.
 
-Kesimpulan
-Menarik kesimpulan dari hasil eksperimen mengenai performa dan efektivitas model machine learning dalam memprediksi risiko kebakaran hutan.
+8. **Prediksi & Interpretasi**
+   Menjalankan pengujian prediksi pada data uji serta menganalisis hasil prediksi untuk memahami bagaimana model mengambil keputusan.
+
+9. **Kesimpulan**
+   Menarik kesimpulan dari hasil eksperimen mengenai performa dan efektivitas model *machine learning* dalam memprediksi risiko kebakaran hutan.
+
+---
+
+### Anggota Kelompok 3
+* **Fitra Nurul Fadya** (E1E125009)
+* **Salsabila** (E1E125026)
+* **Iskandar Zacfaron** (E1E125044)
+* **Mawar Agustina** (E1E125081)
